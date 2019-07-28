@@ -1,0 +1,22 @@
+<html> 
+  <head></head> 
+  <body> 
+    <button id="myButton">CLICK</button> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bacon.js/3.0.9/Bacon.js"></script> 
+    <script> 
+    
+      //var clickEventStream = $('#myButton').asEventStream('click'); 
+      // var clickE = Bacon.fromEvent($("#myButton"), "click")
+      // console.log(clickEventStream)
+      // clickEventStream.onValue(function(){ 
+      //   alert('Button clicked'); 
+      // }); 
+
+
+      var clickEventStream = Bacon.fromEvent(document.getElementById('#myButton'), 'click'); 
+
+      //clickEventStream.onValue(event => console.log(event));
+    </script> 
+  </body> 
+</html>
