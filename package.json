@@ -22,6 +22,7 @@
   "homepage": "https://github.com/write2imran/core-es6#readme",
   "dependencies": {
     "baconjs": "^3.0.9",
+    "nodemon": "^1.19.1",
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.5.2"
   }
